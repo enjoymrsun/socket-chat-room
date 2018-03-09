@@ -225,6 +225,7 @@ public class Server {
   public void serverStart(int max, int port) throws java.net.BindException {
     try {
       clients = new ArrayList<ClientThread>();
+      // serverSocket is like 'listenfd' in CS-15213
       serverSocket = new ServerSocket(port);
       serverThread = new ServerThread(serverSocket, max);
       serverThread.start();
