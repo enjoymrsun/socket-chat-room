@@ -249,6 +249,8 @@ public class Client {
       sendMessage("CLOSE");
       // 停止接受消息线程 | STOP this message thread
       messageThread.stop();
+      // 清空用户列表 | clean the users online list
+      listModel.removeAllElements();
       // 释放资源 | release resource
       if (reader != null) {
         reader.close();
