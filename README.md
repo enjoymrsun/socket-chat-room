@@ -1,6 +1,6 @@
 # Chat Room by Socket!
 
-###Features:
+### Features:
 
 1. Chat Room can be initialized with limit online users number.
 2. Notification message send from server to all clients.
