@@ -2,9 +2,9 @@
 
 ### Features:
 
-1. Chat Room can be initialized with limit online users number.
-2. Notification message send from server to all clients.
-3. Connect, disconnect and re-connect from client to server.
+1. Chat Room can be initialized with limit online users number
+2. Notification message send from server to all clients
+3. Connect, disconnect and re-connect from client to server
 4. Fancy application UI
 
 
